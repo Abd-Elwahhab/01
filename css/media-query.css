@@ -1,0 +1,279 @@
+ /*------------------------------------------------------*\
+    Screen (414 * 896)
+ \*------------------------------------------------------*/
+
+ @media (device-width: 414px) and (device-height: 869px) {
+    
+    /*-------------------Container---------------------*/
+    
+    .container {
+        width: 414px;
+        height: 869px;
+        font-size: 18px;
+    }
+
+    /*------------------Header-------------------*/
+        
+    header {
+        height: 336px;
+    }
+
+    #bell {
+        margin-top: 10px;
+        margin-left: 18px;
+        font-size: 25px;
+    }
+
+    .personal-info {
+        width: 248.4px;
+        height: 217.25px;
+    }
+
+    .personal-info--main {
+        height: 172.2px;
+    }
+
+    .personal-info--main .image {
+         width: 80px;
+        height: 80px;
+            top: 10px;
+    }
+
+    .personal-info--main .image::after {
+        width: 70px;
+        height: 70px;
+    }
+
+    .personal-info--main .image #user-circle {
+        font-size: 40px;
+    }
+
+    .name {
+        margin-bottom: 10px;
+            top: 20px;
+            font-size: 18px;
+    }
+
+    .id {
+            top: 20px;
+            font-size: 18px;
+    }
+
+    .personal-info--footer {
+        height: 51.8px;
+            top: 5px;
+    }
+
+    .personal-info--footer-line {
+        width: 78.2px;
+        height: 35px;
+        position: absolute;
+            top: -5px;
+    }
+
+    .personal-info--footer img {
+        width: 65px;
+            top: 0px;
+    }
+
+    /*--------------------Main---------------------*/
+        
+
+    main {
+        height: 470.4px;
+    }
+
+    /* -------------------Health box--------------------- */
+
+    main .health-box {
+        height: 168px;
+    }
+
+    main .health-box .qr-code  {
+        top: -65.6px;
+        right: -83px;
+        transform: scale(0.455);
+    }
+
+    main .health-box .health-state {
+        top: 26px;
+        right: 146px;
+    }
+
+    main .health-box .health-state p {
+        margin-bottom: 10px;
+    }
+
+    main .health-box .update {
+        top: 26px;
+        left: 17px;
+    }
+
+    /* -------------------Services--------------------- */
+
+    main .services {
+        height: 302.4px;
+    }
+
+    .list .item {
+        width: 27.5%;
+        height: 205.632px;
+    }
+
+    /*---------------------Footer------------------------*/
+
+    .page-footer {
+        height: 89.6px;
+    }
+
+    .nav-list {
+        height: 89.6px;
+    }
+
+    .nav-list--item {
+        font-size: 20px;
+    }
+ }
+
+/*------------------------------------------------------*\
+        Screen (360 * 640)
+\*------------------------------------------------------*/
+
+@media screen and (device-width: 360px) and (device-height: 640px) {
+    
+}
+
+/*------------------------------------------------------*\
+        Screen (360 * 780) || Huawei 9Y Prime
+\*------------------------------------------------------*/
+
+@media screen and 
+       (device-width: 360px) and 
+       (device-height: 780px) {
+
+        /*-------------------Container---------------------*/
+    
+    .container {
+        width: 360px;
+        height: 780px;
+    }
+
+    /*------------------Header-------------------*/
+        
+    header {
+        height: 302.5px;
+        
+    }
+
+    #bell {
+        margin-top: 8px;
+        margin-bottom: 26px;
+        margin-left: 16px;
+        font-size: 30px;
+    }
+
+    .personal-info {
+        width: 70%;
+        height: 195px;
+    }
+
+    .personal-info--main {
+        height: 149.90px;
+    }
+
+    .name {
+            top: 25px;
+    }
+    
+    .id {
+            top: 20px;
+    }
+
+    .personal-info--footer {
+        height: 45.09375px;
+            top: 5px;
+    }
+
+    .personal-info--footer-line {
+        width: 68px;
+        height: 30.46875px;
+            top: 2.5px;
+    }
+
+    .personal-info--footer img {
+        width: 55px;
+            top: 5px;
+    }
+
+    /*--------------------Main---------------------*/
+        
+
+    main {
+        height: 409.5px;
+        
+    }
+
+    /* -------------------Health box--------------------- */
+
+    main .health-box {
+        height: 120px;
+        
+    }
+/*
+    main .health-box .qr-code  {
+        position: absolute;
+        top: -89px;
+        right: -95px;
+    transform: scale(.355);
+    }
+
+    main .health-box .health-state {
+        position: absolute;
+        top: 15px;
+        right: 113px;
+        width: 70%;
+        font-size: 15px;
+    }
+
+    main .health-box .health-state p {
+        margin-bottom: 5px;
+        font-size: 13px;
+    }
+
+    main .health-box .update {
+        top: 26px;
+        left: 17px;
+    } */
+
+    /* -------------------Services--------------------- */
+
+    main .services {
+        height: 263.25px;
+        position: relative;
+            top: 25px;
+    }
+
+    .list {
+        position: relative;
+            top: 5px;
+    }
+
+    .list .item {
+        width: 27%;
+        height: 179.01px;
+    }
+
+    /*---------------------Footer------------------------*/
+
+    .page-footer {
+        height: 70px;
+    }
+
+    .nav-list {
+        height: 70px;
+    }
+
+    .nav-list--item {
+        font-size: 20px;
+    }
+}
