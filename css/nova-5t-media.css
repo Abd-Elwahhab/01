@@ -1,0 +1,129 @@
+@media screen and 
+    (device-width: 424px) and
+    (device-height: 772px) {
+            /*-------------------Container---------------------*/
+    
+    .container {
+        width: 424px;
+        height: 772px;
+    }
+
+    /*------------------Header-------------------*/
+        
+    header {
+        height: 302.5px;
+        
+    }
+
+    #bell {
+        margin-top: 8px;
+        margin-bottom: 26px;
+        margin-left: 16px;
+        font-size: 30px;
+    }
+
+    .personal-info {
+        width: 70%;
+        height: 195px;
+    }
+
+    .personal-info--main {
+        height: 149.90px;
+    }
+
+    .name {
+            top: 25px;
+    }
+    
+    .id {
+            top: 20px;
+    }
+
+    .personal-info--footer {
+        height: 45.09375px;
+            top: 5px;
+    }
+
+    .personal-info--footer-line {
+        width: 90px;
+        height: 30.46875px;
+            top: 2.5px;
+    }
+
+    .personal-info--footer img {
+        width: 75px;
+            top: 5px;
+    }
+
+    /*--------------------Main---------------------*/
+        
+
+    main {
+        height: 409.5px;
+        
+    }
+
+    /* -------------------Health box--------------------- */
+
+    main .health-box {
+        height: 120px;
+        
+    }
+/*
+    main .health-box .qr-code  {
+        position: absolute;
+        top: -89px;
+        right: -95px;
+    transform: scale(.355);
+    }
+
+    main .health-box .health-state {
+        position: absolute;
+        top: 15px;
+        right: 113px;
+        width: 70%;
+        font-size: 15px;
+    }
+
+    main .health-box .health-state p {
+        margin-bottom: 5px;
+        font-size: 13px;
+    }
+
+    main .health-box .update {
+        top: 26px;
+        left: 17px;
+    } */
+
+    /* -------------------Services--------------------- */
+
+    main .services {
+        height: 263.25px;
+        position: relative;
+            top: 25px;
+    }
+
+    .list {
+        position: relative;
+            top: 5px;
+    }
+
+    .list .item {
+        width: 27%;
+        height: 179.01px;
+    }
+
+    /*---------------------Footer------------------------*/
+
+    .page-footer {
+        height: 70px;
+    }
+
+    .nav-list {
+        height: 70px;
+    }
+
+    .nav-list--item {
+        font-size: 20px;
+    }
+    }

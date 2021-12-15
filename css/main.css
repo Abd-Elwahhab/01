@@ -346,7 +346,11 @@ main .services .section-title div span {
 
 .page-footer {
     height: 64px;
-    position: sticky;
+    position: fixed;
+        /* top: 0; */
+        right: 0;
+        bottom: 0;
+        left: 0;
 }
 
 .nav-list {
@@ -357,7 +361,6 @@ main .services .section-title div span {
     text-align: center;
     background-color: #fff;
     height: 64px;
-    position: sticky;
 }
 
 .nav-list--item {
