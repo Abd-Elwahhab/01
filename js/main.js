@@ -5,7 +5,7 @@ const dateElement = document.getElementById("date");
 
 let today = new Date();
 
-    
+
 dateElement.innerHTML = today;
 
 dateElement.innerHTML = today.toLocaleDateString("ar-SA", {
@@ -16,7 +16,7 @@ dateElement.innerHTML = today.toLocaleDateString("ar-SA", {
     hour: "2-digit",
     minute: "2-digit",
 
-    
+
 });
 
 
@@ -29,4 +29,17 @@ reFresh.onclick = function () {
     "use strict";
 
     dateElement.innerHTML = location.reload();
+};
+
+
+//  service worker: 
+
+if ("seviceWorker" in navigator) {
+    navigator.serviceWorker.register(sw.js).then(registration => {
+        console.log("SW Registered!");
+        console.log(registration);
+    }).catch(error => {
+        console.log("SW registration faild!");
+        console.log(error);
+    });
 };
