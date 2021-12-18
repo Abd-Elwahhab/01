@@ -7,14 +7,17 @@
     "display": "standalone",
     "icons": [
         {
-            "src": "images/logo.svg",
+            "src": "images/192x192.png",
             "sizes": "192x192",
-            "type": "image/svg"
+            "type": "image/png"
         },
         {
-            "src": "images/sdaia.svg",
-            "sizes": "192x192",
-            "type": "image/svg"
+            "src": "images/512x512.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "any maskable"
+
         }
-    ]
+    ],
+    "prefer_related_applications": "true"
 }
